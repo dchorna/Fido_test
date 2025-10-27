@@ -72,3 +72,5 @@ def search_note(q: str, limit: int = 15):
      )
      res = result.get("data", {}).get("Get", {}).get("Notes", [])# спочатку берем ключ дата, потім словник класів, а потім список всіх нотаток
      return res
+
+     #я старалась))
